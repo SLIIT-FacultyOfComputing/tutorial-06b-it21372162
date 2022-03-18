@@ -1,35 +1,12 @@
-#include "Box.h"
-
-// Implement setters and getters
-
-void Box::setLength(int l)
-{
-  length = l ;
-}
-void Box::setWidth(int w)
-{
-  width = w ;
-}
- void Box::setHeight(int h)
-{
-  height = h ;
-}
-
-int Box::getLength()
-{
-  return length ;
-}
-int Box::getWidth()
-{
-  return width ;
-}
-int Box::getHeight()
-{
-  return height ;
-}
-// Implemenet the calcVolume() unction
-int Box::calcVolume() {
-
-  return length * width * height ;
+#include <iostream>
+#include "Student.h"
+using namespace std;
+int main() {
   
+// == DO NOT CHANGE THE MAIN PROGRAM =================
+   Student std1;
+   std1.assignDetails(1212, "Amalinga");
+   std1.display();
+//==========================
+   return 0;
 }
